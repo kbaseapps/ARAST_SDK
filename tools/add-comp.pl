@@ -266,11 +266,11 @@ sub install_kmergenie {
 }
 
 sub install_masurca {
-    my $dir = 'MaSuRCA-2.3.2b';
+    my $dir = 'MaSuRCA-3.2.2';
     my $file = "$dir.tar.gz";
     # download($dir, $file, 'ftp://ftp.genome.umd.edu/pub/MaSuRCA');
     #download($dir, $file, 'ftp://ftp.genome.umd.edu/pub/MaSuRCA/v2.2.1');
-    download($dir, $file, 'ftp://ftp.genome.umd.edu/pub/MaSuRCA/');
+    download($dir, $file, 'ftp://ftp.genome.umd.edu/pub/MaSuRCA/latest');
     run("cd $dir; ./install.sh");
     run("cp -r -T $dir $dest_dir/masurca");
 }
