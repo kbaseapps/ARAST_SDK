@@ -1,3 +1,6 @@
+### Version 0.0.6
+- Disable IDBA and Velvet since we have standalone versions now.
+
 ### Version 0.0.5
 - Bump MaSuRCA to 3.3.2 since older version isn't available
 
