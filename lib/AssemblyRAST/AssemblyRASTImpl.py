@@ -118,7 +118,7 @@ This modules run assemblers supported in the AssemblyRAST service.
         return assembly_input
 
     # template
-    def arast_run(self, ctx, params, assembler, server='http://localhost:8000/'):
+    def arast_run(self, ctx, params, assembler, server='http://localhost:8000'):
         output = None
 
         console = []
