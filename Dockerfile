@@ -10,12 +10,11 @@ MAINTAINER Fangfang Xia
 # -----------------------------------------
 
 RUN sudo apt-get install python-dev libffi-dev libssl-dev && \
-    pip install cffi --upgrade && \
-    pip install pyopenssl --upgrade && \
-    pip install --upgrade ndg-httpsclient && \
-    pip install pyasn1 --upgrade && \
-    pip install requests --upgrade &&  \
-    pip install 'requests[security]' --upgrade
+    pip install cffi pyopenssl cryptography==2.0.3 --upgrade \
+    && pip install ndg-httpsclient --upgrade \
+    && pip install pyasn1 --upgrade \
+    && pip install requests --upgrade \
+    && pip install 'requests[security]' --upgrade
 
 # -----------------------------------------
 RUN apt-get update && \
