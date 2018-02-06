@@ -1,3 +1,6 @@
+### Version 0.0.9
+- Disable A5 and MiniASM
+
 ### Version 0.0.8
 - Disable Masurca
 
