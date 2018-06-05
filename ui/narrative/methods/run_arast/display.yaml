@@ -1,9 +1,9 @@
 #
 # define display information
 #
-name: Assemble Contigs from Reads
+name: Assemble with ARAST
 tooltip: |
-    Assemble DNA reads into a set of contigs (an Assembly object).
+    Assemble DNA reads into a set of contigs (an Assembly object) using the ARAST Assembly Service.
 screenshots: []
 
 icon: arast-blue.png
