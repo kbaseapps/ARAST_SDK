@@ -48,6 +48,10 @@ description : |
 publications :
     -
         display-text : |
-            Tritt, Andrew, Eisen, Jonathan A., Facciotti, Marc T., Darling, Aaron E. (2012) An Integrated Pipeline for de Novo Assembly of Microbial Genomes. PLoS ONE, 7(9), e42304, doi: 10.1371/journal.pone.0042304
+            Tritt A, Eisen JA, Facciotti MT, Darling AE. An Integrated Pipeline for de Novo Assembly of Microbial Genomes. PLOS ONE. 2012;7: e42304. doi:10.1371/journal.pone.0042304
+        link: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0042304
+
     -
+        display-text: |
+            source: 
         link: https://github.com/levinas/a5

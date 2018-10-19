@@ -47,4 +47,6 @@ description : |
 
 publications :
     -
+        display-text: |
+            KiKi GitHub source:
         link: https://github.com/GeneAssembly/kiki
