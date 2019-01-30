@@ -84,9 +84,6 @@ description : |
     <p>Kiki assembler[15]:
         <ul>
         <li>Runs Kiki assembler</li></ul></p>
-    <p>SPAdes pipeline:
-        <ul>
-        <li>Runs BayesHammer preprocessing with SPAdes assembler</li></ul></p>
     </p>
     <p>Assembly Recipe Descriptions:
         <ul><li>sspace: SSPACE pre-assembled contig scaffolder[3]</br>
@@ -150,11 +147,6 @@ description : |
         <li>a5: A5 microbial assembly pipeline[23]</li>
         <li>tagdust: TagDust sequencing artifacts remover[17]</li>
         <li>sga_ec: SGA component for error correction (runs subcommands: 'index' & 'correct')[18]</li>
-        <li>spades: SPAdes single-cell and standard assembler based on paired de Bruijn graphs</br>
-            default values:</br>
-            only_assembler: True (bool)</br>
-            mismatch_correction: True (bool)</br>
-            read_length: short (short, medium, medium2, long)</li>
         <li>pacbio: PacBio non-hybrid assembly pipeline for SMRT long reads [6]</li>
         <li>reapr: REAPR assembly error recognizer using paired-end reads[13]</li>
         <li>a6: Modified A5 microbial assembly pipeline[1]</li>
