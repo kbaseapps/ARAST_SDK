@@ -66,12 +66,6 @@
 			"display": "Kiki Assembler",
 			"id": "kiki",
 			"ui_name": "Kiki Assembler"
-		    },
-		    {
-			"value": "full_spades",
-			"display": "SPAdes Pipeline",
-			"id": "full_spades",
-			"ui_name": "SPAdes Pipeline"
 		    }
 		]
 	    }
