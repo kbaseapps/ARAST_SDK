@@ -1,3 +1,6 @@
+### Version 0.0.13
+- Disable remaining apps, no longer supported by developers
+
 ### Version 0.0.9
 - Disable A5 and MiniASM
 
